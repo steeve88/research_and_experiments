@@ -1,0 +1,17 @@
+file_paths:
+  ecmwf_seasonal_nc_path: ""
+  ecmwf_seasonal_nc_topo_path: ""
+  era5_seasonal_nc_path: ""
+
+download_paths:
+  zip_dir: ""
+  save_path_ecmwf_orography: ""
+  save_path_ecmwf_zips: ""
+  save_path_era5: ""
+
+target_coordinates:
+  latitude: 47.37 #Latitude of the point [°]
+  longitude: 8.55 #Longitude of the point [°]
+  parameter: "t2m" #The parameter we want to investigate
+  orography_parameter: "z" #The orography parameter
+  valid_range_brier: 1 #The range around the era5 temperature that the forecast is considered as successful [°C]

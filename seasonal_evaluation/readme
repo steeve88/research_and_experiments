@@ -1,0 +1,5 @@
+INSTRUCTIONS
+
+1. Edit inputs.yaml and define the paths of the inputs
+2. Run main.py (At the moment api downloaders are disabled)
+3. As a results you will find a png file in the current directory
